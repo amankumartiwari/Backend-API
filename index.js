@@ -10,7 +10,7 @@ app.use(express.urlencoded());
 
 app.use(bodyParser.urlencoded({ extended: false }))
  
-// parse application/json
+// parsing application/json
 app.use(bodyParser.json())
 app.use(passport.initialize());
 
